@@ -6,8 +6,8 @@ Create two libraries written in different .net-compliant languages ( Visual Basi
 
 #### Geometry Library ( Visual Basic )
 
-- Develop a Geometry DLL that contains Point and Line types written in Visual Basic.
-- Use Developer Command Prompt to compile Point.vb and Line.vb files into a single Geometry.dll using Visual Basic compiler (vbc.exe).
+- Develop a Geometry DLL that contains Point and Line types written in Visual Basic
+- Use Developer Command Prompt to compile Point.vb and Line.vb files into a single Geometry.dll using Visual Basic compiler ( vbc.exe )
 
 ```vb
 Namespace Geometry
@@ -37,10 +37,10 @@ End Namespace
 
 #### Graphics Library ( C# )
 
-- Develop a Graphics DLL that contains ColoredLine type, written in C#. 
-	- ColoredLine class should use Line type from Geometry DLL. It should have DrawLine public method that draws the colored line in Console.
-- Use Developer Command Prompt to compile ColoredLine.cs file and referenced Geometry.dll into a single Graphics.dll using C# compiler (csc.exe).
-	- Make sure that the integration between the DLLs is correct and that the necessary dependencies are properly resolved.
+- Develop a Graphics DLL that contains ColoredLine type, written in C#
+	- ColoredLine class should use Line type from Geometry DLL. It should have DrawLine public method that draws the colored line in Console
+- Use Developer Command Prompt to compile ColoredLine.cs file and referenced Geometry.dll into a single Graphics.dll using C# compiler ( csc.exe )
+	- Make sure that the integration between the DLLs is correct and that the necessary dependencies are properly resolved
 
 ```cs
 using System;
@@ -82,10 +82,10 @@ namespace Graphics
 }
 ```
 
-#### Console Application (C#)
+#### Console Application
 
-- Develop a simple C# console application that demonstrates the usage of the types from the Geometry and Graphics DLLs.
-	- The application should create an instance of ColoredLine type and perform DrawLine operation on it.
+- Develop a simple console application that demonstrates the usage of the types from the Geometry and Graphics DLLs
+	- The application should create an instance of ColoredLine type and perform DrawLine operation on it
 	
 ### Expected result
 
@@ -93,6 +93,6 @@ The resulting application should be successfully compiled and executed.
 
 #### Additional notes
 
-- Refer to Microsoft Documentation for compiling commands.
+- Refer to Microsoft Documentation for compiling commands
 - Feel free to make necessary changes to given examples if needed
 - Try to integrate types written in any other .net-compliant language into your project
