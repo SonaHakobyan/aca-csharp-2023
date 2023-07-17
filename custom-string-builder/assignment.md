@@ -3,18 +3,17 @@
 ### Requirements 
 
 Implement a custom string builder class with the necessary internal data structure(s) for string manipulation.
+Use an array of characters as a container for the string value and support chaining for the string manipulation operations.
 Include the following methods in your class:
 
 - Length method that returns the current length of the string being built
 - Append method, which appends the given string to the end of the current string
 - InsertAt method, which inserts the given string at the specified index in the current string
 - RemoveDuplicates method, which removes duplicate characters from the current string, leaving first occurrences only
-- RemoveWhitespace method, which removes all whitespace characters from the current string
-- ToCase method, which formats the current string to specified case ( Pascal, Camel, Snake, Kebab )
-- Split method, which splits the current string into chunks of given size
-- Shuffle method, which randomly shuffles the characters in the current string
-- IsBlank method, which checks whether the current string is null, empty or only whitespace characters
-- OnBlank method, which returns the current value or the given string if the current value is blank
+- RemoveWhitespaces method, which removes all whitespace characters from the current string
+- GetString method, which returns string representation of current string
+- IsBlank method, which checks whether the current string is null, empty, or only whitespace characters
+- OnBlank method, which returns  string representation of current string or given string if the current value is blank
 	
 ### Expected result
 
